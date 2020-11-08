@@ -49,10 +49,7 @@ def filterMedian (Filter):
             # print('LINE has finished')
 
     D = np.uint8(D)
-
-    print('################################')
-    print('Process finished')
-    print('Filter have been applied')
-    print('################################')
+        
+    print('#',end=".")
 
     return D
